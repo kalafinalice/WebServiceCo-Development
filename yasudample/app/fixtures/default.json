@@ -1,0 +1,6 @@
+[
+{"model": "enzemi.TeamInter","pk": 1,"fields": {"employee_id":3263512, "team_id": 1}},
+{"model": "enzemi.MajorClassificationMaster", "pk":1, "fields": {"major_classification":"test", "major_classification":"test"}},
+{"model": "enzemi.SmallClassificationMaster", "pk":1, "fields": {"small_classification":"test", "major_classification":1}},
+{"model": "enzemi.MorningTaskMaster","pk": 1,"fields": {"employee_id":3263512, "task_name": "test", "major_classification": 1, "small_classification": 1}}
+]

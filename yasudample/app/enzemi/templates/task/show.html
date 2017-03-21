@@ -1,0 +1,11 @@
+{% extends 'enzemi/layout.html' %}
+
+{% block content %}
+
+タスク一覧
+
+<p>{{morning_task}}</p>
+
+<a href ="{% url 'task_new' %}">新規登録</a>
+
+{% endblock %}
